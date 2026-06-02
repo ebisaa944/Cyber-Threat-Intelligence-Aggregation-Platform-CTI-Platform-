@@ -1,6 +1,8 @@
 ThreatPulse — Cyber Threat Intelligence Platform
 ===============================================
 
+[![CI](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions) [![Frontend tests](https://github.com/<OWNER>/<REPO>/actions/workflows/frontend-tests.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions) [![Backend tests](https://github.com/<OWNER>/<REPO>/actions/workflows/backend-tests.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions)
+
 ThreatPulse is a lightweight Cyber-Threat-Intelligence (CTI) aggregation and analysis platform. It
 collects feeds (threats, IOCs, CVEs), provides a REST API for automation, and ships a modern React
 frontend dashboard for exploration, reporting and incident triage.

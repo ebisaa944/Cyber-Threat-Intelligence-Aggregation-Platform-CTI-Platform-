@@ -182,3 +182,26 @@
     border-right-color: var(--border);
   }
 }
+
+/* App additions */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #0f1724;
+  color: #fff;
+}
+.navbar a { color: #cbd5e1; margin-right: 12px; text-decoration: none }
+.navbar .brand { font-weight: 700; font-size: 18px }
+.linkish { background: none; border: none; color: #cbd5e1; cursor: pointer }
+.app-container { padding: 20px; }
+.list { list-style: none; padding: 0 }
+.list li { padding: 8px 0; border-bottom: 1px solid #eee }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 12px }
+.summary-card { padding: 12px; border: 1px solid #e5e7eb; border-radius: 6px }
+.login, .register { max-width: 420px; margin: 24px auto }
+form label { display: block; margin-bottom: 8px }
+form input { width: 100%; padding: 8px; margin-top: 4px; margin-bottom: 12px }
+button { padding: 8px 12px; border-radius: 6px; cursor: pointer }
+.error { color: #b91c1c }
+
